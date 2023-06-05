@@ -1,0 +1,72 @@
+body {
+   
+    font-family: Arial, sans-serif;
+    background-image: url(img/green-abstract-geometric-shape-background-free-vector.jpg);
+    background-repeat: no-repeat;
+	background-size:100%;
+}
+
+
+h1{
+    font-size: 50px;
+}
+#div1{
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bee6c4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 50px;
+    color: #ffffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#179c43;
+    
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 30%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 30%;
+    padding: 10px 20px;
+    margin-top: 5px;
+    background-color: #268d2f;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button[type="submit"]:hover {
+    background-color: #007d30;
+}
+
+.message {
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(img/green-abstract-geometric-shape-background-free-vector.jpg);
+    background-repeat: no-repeat;
+	background-size:100%;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: #000000;
+    margin-top: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+  }
+  
+  #chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  #missatges {
+    margin-top: 20px;
+    background-color: #bee6c4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 400px;
+    width: 100%;
+    overflow-y: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #missatge {
+    margin-top: 20px;
+    display: block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .missatge .receptor p {
+    background-color: #f1f1f1;
+    color: #333;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    text-align: right;
+  }
+  
+  .missatge .emissor p {
+    background-color: #268d2f;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: left; 
+  }
+  
+  
+  form {
+    margin-top: 20px;
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #bee6c4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    display: block;
+    width: 20%;
+    padding: 10px;
+    background-color: #268d2f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #007d30;
+  }
+
+  p{
+    font-size: 14px;
+    color: #000000;
+    margin-top: 0;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #d5edd9;
+  }
